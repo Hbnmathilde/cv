@@ -242,3 +242,4 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px);
   .job-img { width: 96px; height: 64px; }
   .job-body { padding-left: 16px; }
 }
+.job-img img { object-fit: contain; background: #fff; padding: 8px; }

@@ -1,2 +1,0 @@
-Mets ici : photo.jpg (déjà là, issue de ton CV, remplaçable par une version plus grande), andes.jpg, citeo.jpg, lesieur.jpg, quitoque.jpg, decathlon.jpg (logo ou photo par expérience, facultatif), colormat.jpg.
-Tant qu'une image manque, un bloc avec des initiales s'affiche à la place.

@@ -233,3 +233,12 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px);
   .marquee-track { animation: none; }
   * { transition: none !important; }
 }
+/* ---------- images du parcours au format horizontal ---------- */
+.job summary { grid-template-columns: 150px 1fr 40px; }
+.job-img { width: 150px; height: 100px; }
+.job-body { padding-left: calc(14px + 150px + 20px); }
+@media (max-width: 560px) {
+  .job summary { grid-template-columns: 96px 1fr 34px; }
+  .job-img { width: 96px; height: 64px; }
+  .job-body { padding-left: 16px; }
+}
